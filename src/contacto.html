@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MRsteele</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="menu">
+                    <select onchange="location = this.value">
+                        <option value="#">Menu</option>
+                        <option value="Index.html">Principal</option>
+                        <option value="Conoceme.html">Conoceme</option>
+                        <option value="Comotrabajo.html">Como Trabajo</option>
+                        <option value="Redes.html">Redes</option>
+                        <option value="Contacto.html">Contacto</option>
+                    </select>
+                </li>
+                <li class="title">
+                    <h1><a href="index.html">MR Steele</a></h1>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">
+            <h1 class="contacto">Contacto</h1>
+            <form>
+                <fieldset class="boxform">
+                    <label class="itemform" for="POST-name">Nombre:</label>
+                    <input id="POST-name" type="text" name="name">
+                    <label class="itemform" for="POST-mail">Email:</label>
+                    <input id="POST-mail" type="text" name="mail">
+                    <label class="itemform" for="POST-texto">Texto:</label>
+                    <textarea id="POST-texto" name="texto"> </textarea>
+                    <input type="submit" value="Enviar">
+
+                </fieldset>
+
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Copyrigth MR steele</p>
+    </footer>
+</body>
+
+</html>

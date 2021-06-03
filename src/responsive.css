@@ -1,0 +1,13 @@
+@media screen and (max-width: 500px) {
+    /* Para todos los Sitios */
+    .footer {
+        display: none;
+    }
+    
+    nav ul {
+        list-style:none;
+        display:inline-block;
+        text-align:center;
+     }
+} 
+
